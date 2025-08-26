@@ -1,0 +1,46 @@
+.heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(226, 76, 76);
+    padding: 20px;
+} 
+
+
+.navbar {
+      background-color: #333;
+      overflow: hidden;
+      margin: 10px;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      background-color: #575757;
+    }
+.image{
+    display: inline-block;
+}
+.image img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+div{
+      height:50px;
+      width:50px;
+      border: 1px solid;
+    }
+    .container{
+      display: grid;
+      grid-template-columns: repeat(8,1fr);
+    
+    }
+    #black{
+      background-color: black;
+    }
