@@ -1,0 +1,59 @@
+body{
+        margin : 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 225px;
+        
+
+      }
+      .header{
+        background-color: tomato;
+        color: aliceblue;
+        text-align: center;
+        padding: 50px;
+        border-style: dotted;
+
+      }
+      .sidebar{
+        width: 200px;
+        background: #133;
+        color: white;
+        height: 100vh;
+        padding: 15px;
+        position: fixed;
+        top: 0%;
+        /* right: 0; */
+        left: 0rem;
+      }
+      .sidebar a{
+        display: block;
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+      }
+      .sidebar a:hover {
+        background: rgb(95, 96, 98);
+      }
+      .pizzaimg{
+        height: 200px;
+        width: 190px;
+      }
+      .container{
+        /* display: block; */
+
+        margin-right: 20px;
+        text-align: center;
+        background-color: aquamarine;
+        padding-top: 15px;
+        width: 20vw;
+        border: 1px solid bisque;
+        /* border-radius: 10px; */
+      }
+      .container:hover{
+        transform: scale(1.05);
+         transition: transform 0.3s;
+      }
+      .box{
+        display: flex;
+       
+        
+      }
