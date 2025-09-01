@@ -1,0 +1,1 @@
+![SimpleRestaurant](Screenshot.png)
